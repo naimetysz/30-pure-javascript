@@ -15,7 +15,8 @@
             <th>
                 <div id="button" class="btn1" onclick="genPassword()">Generate</div>
             </th>
-            <th><a href="#" id="btn2" onclick="copyPassword()">Copy</a></th>
+            <th><a  id="button" class="btn2"
+                onclick="copyPassword()">Copy</a></th>
         </table>
     </div>
     
@@ -29,6 +30,7 @@
         var password= ''
         for (var i=0; i < passwordLength; i++){
             var randomNumber = Math.floor(Math.random() * chars.length)
+            password+= chars.substring(randomNumber,randomNumber+1)
 
 
         }
