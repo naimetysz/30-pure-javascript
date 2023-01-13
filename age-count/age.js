@@ -1,7 +1,7 @@
 const calculate = document.querySelector('.calculate')
 // Bu kod, JavaScript dilinde yazılmış bir kod parçasıdır ve web sayfasındaki HTML elementlerinden birini seçmenizi sağlar. Özellikle, "document.querySelector('.calculate')" kodu "calculate" sınıfına sahip bir HTML elementini seçer ve bu elementi "calculate" değişkenine atar. Bu değişken daha sonra bu element üzerinde işlem yapmak için kullanılabilir. Örneğin, bir tıklama olayı ekleyebilir veya elementin içeriğini değiştirebilirsiniz.
 
-   calculate.addEventListener('click',(e)=>{
+   calculate.addEventListener('click',(e)=> {
        var entereddate =new Date(document.querySelector('.date').value)
        var inputdate ={
            year:entereddate.getFullYear(),
@@ -15,7 +15,7 @@ const calculate = document.querySelector('.calculate')
        var month = [31,28,31,30,31,30,31,31,30,31,30,31]
    
    if (inputdate.day>d2){
-       d2= d2+month(m2-1)
+       d2= d2+month[m2-1]
        m2 = m2 -1
    }
    if (inputdate.month >m2){
