@@ -12,7 +12,7 @@ main {
     border-radius: 20px;
     -webkit-border-radius:125px;
     background: rgba(212,215,223,0.782);
-    -webkit-box-shadow: 12px 12px 12px 24px #9499a8 , -12px -12px 24px #ffffffff;
+    -webkit-box-shadow: 12px 12px  24px #9499a8 , -12px -12px 24px #ffffffff;
     box-shadow: 12px 12px 24px #7a7c83 -12px -12px 24px #ffffff;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@ main {
     padding: 10px 5px;
 }
 .text {
-    background-color: aqua;
+    background-color: rgb(255, 204, 0);
     height: 70%;
     width: 70%;
     resize: none;
@@ -29,7 +29,7 @@ main {
     
 
 }
-text ::-webkit-scrollbar{
+.text ::-webkit-scrollbar{
     display: none;
 }
 .btn{
