@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(green, yellow);
+
+}
+.container{
+    position: relative;
+    width: 360px;
+    height: 640px;
+    background: rgba(0,0,0,0.2);
+    transform: rotate(-38dg) skew(25deg) scale(0.8);
+    margin-top: 150px;
+}
+.container img{
+  position: absolute;
+  width: 100%;
+}
